@@ -1,3 +1,3 @@
 #
 FROM ubuntu
-CMD echo 'Now running Ubuntu'
+RUN apt-get upgrade && apt-get update && apt-get install -y python3
